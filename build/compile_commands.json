@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/admin/Рабочий стол/theme-json/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I\"/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/include\" -I\"/home/admin/Рабочий стол/theme-json/src/c++\" -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtQuick -isystem /usr/include/qt/QtQmlModels -isystem /usr/include/qt/QtQml -isystem /usr/include/qt/QtNetwork -g -std=gnu++14 -fPIC -o CMakeFiles/ThemeJson.dir/ThemeJson_autogen/mocs_compilation.cpp.o -c \"/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/mocs_compilation.cpp\"",
+  "file": "/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/ThemeJson.dir/ThemeJson_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/admin/Рабочий стол/theme-json/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I\"/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/include\" -I\"/home/admin/Рабочий стол/theme-json/src/c++\" -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtQuick -isystem /usr/include/qt/QtQmlModels -isystem /usr/include/qt/QtQml -isystem /usr/include/qt/QtNetwork -g -std=gnu++14 -fPIC -o CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/main.cc.o -c \"/home/admin/Рабочий стол/theme-json/src/c++/ThemeJson/main.cc\"",
+  "file": "/home/admin/Рабочий стол/theme-json/src/c++/ThemeJson/main.cc",
+  "output": "CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/main.cc.o"
+},
+{
+  "directory": "/home/admin/Рабочий стол/theme-json/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I\"/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/include\" -I\"/home/admin/Рабочий стол/theme-json/src/c++\" -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtQuick -isystem /usr/include/qt/QtQmlModels -isystem /usr/include/qt/QtQml -isystem /usr/include/qt/QtNetwork -g -std=gnu++14 -fPIC -o CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/palette_model.cc.o -c \"/home/admin/Рабочий стол/theme-json/src/c++/ThemeJson/palette_model.cc\"",
+  "file": "/home/admin/Рабочий стол/theme-json/src/c++/ThemeJson/palette_model.cc",
+  "output": "CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/palette_model.cc.o"
+},
+{
+  "directory": "/home/admin/Рабочий стол/theme-json/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I\"/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/include\" -I\"/home/admin/Рабочий стол/theme-json/src/c++\" -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtQuick -isystem /usr/include/qt/QtQmlModels -isystem /usr/include/qt/QtQml -isystem /usr/include/qt/QtNetwork -g -std=gnu++14 -fPIC -o CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o -c \"/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp\"",
+  "file": "/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp",
+  "output": "CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o"
+}
+]
