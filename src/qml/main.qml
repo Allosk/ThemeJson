@@ -65,7 +65,7 @@ ApplicationWindow {
 
     }
 
-   ColumnLayout {
+    ColumnLayout {
         id: mainLayout
         anchors.fill: parent
         Pane {
@@ -101,6 +101,7 @@ ApplicationWindow {
                         }
                     }
                 }
+
 
                 Item {
                     Layout.fillWidth: true

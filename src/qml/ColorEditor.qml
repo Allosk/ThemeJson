@@ -16,7 +16,7 @@ ListView {
     property int nameWidth: name_text_metrics.max_width
     property int lightWidth: 0
     property int darkWidth: 0
-
+    property int color_text_min_width: 60
 
     delegate: Pane {
         id: main_palette
@@ -110,10 +110,6 @@ ListView {
     }
 
     TextMetrics {
-        id: color_text_metrics 
-    }
-
-    TextMetrics {
         id: name_text_metrics
         property int max_width: 0
         font.pixelSize: 18
@@ -171,7 +167,7 @@ ListView {
                         verticalAlignment: Text.AlignVCenter
                         maximumLength: 8
                         height: 10
-                        Layout.preferredWidth: (color_text_metrics.advanceWidth, color_text_min_width)
+                        Layout.preferredWidth: color_text_metrics.advanceWidth
                         color: isValidHex("#" + text) ? "black" : "red"
                         text: __color_editor_field.color.substring(1)
                         onAccepted: {
@@ -228,6 +224,12 @@ ListView {
                 }
             }
         }
+    TextMetrics {
+        id: color_text_metrics 
+        font.pixelSize: 14
+        text: colorName.text  
+    }
+
     }
 
 
