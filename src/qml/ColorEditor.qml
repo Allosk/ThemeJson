@@ -61,6 +61,33 @@ ListView {
                 onTextChanged: name_text_metrics.text = text
                 Component.onCompleted: name_text_metrics.text = text
             }
+
+            Rectangle {
+                id: deleteButton
+                width: 30
+                height: 30
+                radius: width / 2
+                color: "#FFF"
+                border.width: 1
+                border.color: "#000"
+                MouseArea {
+                    anchors.fill: parent
+                    cursorShape: Qt.PointingHandCursor
+                    onClicked: {
+                        console.log("Clicked")
+                    }
+                }
+
+                Text {
+                    text: "✖"
+                    anchors.centerIn: parent
+                    font.pixelSize: 24
+                    color: "#e53935"
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                }
+            }
+
             Pane {
                 id: editor_container
                 Layout.fillWidth: true

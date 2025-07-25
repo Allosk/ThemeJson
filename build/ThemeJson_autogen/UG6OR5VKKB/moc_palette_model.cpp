@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_PaletteModel_t {
-    QByteArrayData data[14];
-    char stringdata0[131];
+    QByteArrayData data[15];
+    char stringdata0[143];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -44,14 +44,15 @@ QT_MOC_LITERAL(8, 81, 8), // "hexValue"
 QT_MOC_LITERAL(9, 90, 4), // "save"
 QT_MOC_LITERAL(10, 95, 12), // "loadFromFile"
 QT_MOC_LITERAL(11, 108, 8), // "filePath"
-QT_MOC_LITERAL(12, 117, 6), // "colors"
-QT_MOC_LITERAL(13, 124, 6) // "loaded"
+QT_MOC_LITERAL(12, 117, 11), // "removeColor"
+QT_MOC_LITERAL(13, 129, 6), // "colors"
+QT_MOC_LITERAL(14, 136, 6) // "loaded"
 
     },
     "PaletteModel\0themeColorsChanged\0\0"
     "loadedChanged\0hasColor\0theme\0colorName\0"
     "setColor\0hexValue\0save\0loadFromFile\0"
-    "filePath\0colors\0loaded"
+    "filePath\0removeColor\0colors\0loaded"
 };
 #undef QT_MOC_LITERAL
 
@@ -61,22 +62,23 @@ static const uint qt_meta_data_PaletteModel[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
-       2,   62, // properties
+       7,   14, // methods
+       2,   70, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   44,    2, 0x06 /* Public */,
-       3,    0,   45,    2, 0x06 /* Public */,
+       1,    0,   49,    2, 0x06 /* Public */,
+       3,    0,   50,    2, 0x06 /* Public */,
 
  // methods: name, argc, parameters, tag, flags
-       4,    2,   46,    2, 0x02 /* Public */,
-       7,    3,   51,    2, 0x02 /* Public */,
-       9,    0,   58,    2, 0x02 /* Public */,
-      10,    1,   59,    2, 0x02 /* Public */,
+       4,    2,   51,    2, 0x02 /* Public */,
+       7,    3,   56,    2, 0x02 /* Public */,
+       9,    0,   63,    2, 0x02 /* Public */,
+      10,    1,   64,    2, 0x02 /* Public */,
+      12,    1,   67,    2, 0x02 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -87,10 +89,11 @@ static const uint qt_meta_data_PaletteModel[] = {
     QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,    5,    6,    8,
     QMetaType::Void,
     QMetaType::Bool, QMetaType::QString,   11,
+    QMetaType::Void, QMetaType::QString,    6,
 
  // properties: name, type, flags
-      12, QMetaType::QVariantList, 0x00495001,
-      13, QMetaType::Bool, 0x00495001,
+      13, QMetaType::QVariantList, 0x00495001,
+      14, QMetaType::Bool, 0x00495001,
 
  // properties: notify_signal_id
        0,
@@ -113,6 +116,7 @@ void PaletteModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 4: _t->save(); break;
         case 5: { bool _r = _t->loadFromFile((*reinterpret_cast< const QString(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 6: _t->removeColor((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -177,13 +181,13 @@ int PaletteModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 7)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 6;
+        _id -= 7;
     }
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty

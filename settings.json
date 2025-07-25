@@ -1,28 +1,14 @@
 {
     "colors": {
         "dark": {
-            "11212": "#000000",
-            "Cho": "#000000",
             "accent": "#f2f2f2",
             "accentActive": "#ff0808",
-            "ada": "#000000",
-            "color": "#fa9b9b",
-            "shelebele": "#020000",
-            "test": "#000000",
-            "test2": "#e7a6a6",
-            "ф": "#000000"
+            "color": "#000000"
         },
         "light": {
-            "11212": "#ffffff",
-            "Cho": "#ffffff",
             "accent": "#20ffe3",
             "accentActive": "#e1e1e1",
-            "ada": "#ffffff",
-            "color": "#06f992",
-            "shelebele": "#f6c8fd",
-            "test": "#ffffff",
-            "test2": "#4fcf2b",
-            "ф": "#ffffff"
+            "color": "#ffffff"
         }
     }
 }

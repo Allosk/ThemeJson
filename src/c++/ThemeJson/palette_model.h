@@ -22,6 +22,7 @@ public:
     Q_INVOKABLE void setColor(const QString &theme, const QString &colorName, const QString &hexValue);
     Q_INVOKABLE void save();
     Q_INVOKABLE bool loadFromFile(const QString filePath);
+    Q_INVOKABLE void removeColor(const QString &colorName);
 
 signals:
     void themeColorsChanged();

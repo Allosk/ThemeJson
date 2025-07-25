@@ -40,6 +40,41 @@ void PaletteModel::setColor(const QString &theme, const QString &colorName, cons
     emit themeColorsChanged();
 }
 
+bool PaletteModel::hasColor(const QString &theme, const QString &colorName) const {
+    if (!m_data.contains("colors"))
+        return false;
+
+    QJsonObject colors = m_data["colors"].toObject();
+
+    if (!colors.contains(theme))
+        return false;
+
+    QJsonObject themeObj = colors[theme].toObject();
+    return themeObj.contains(colorName);
+}
+
+void PaletteModel::removeColor(const QString &colorName) {
+    if (!m_data.contains("colors")) return;
+
+    QJsonObject colors = m_data["colors"].toObject();
+
+    if (colors.contains("light")) {
+        QJsonObject light = colors["light"].toObject();
+        light.remove(colorName);
+        colors["light"] = light;
+    }
+
+    if (colors.contains("dark")) {
+        QJsonObject dark = colors["dark"].toObject();
+        dark.remove(colorName);
+        colors["dark"] = dark;
+    }
+
+    m_data["colors"] = colors;
+    saveJson();
+    emit themeColorsChanged();
+}
+
 void PaletteModel::save() {
     saveJson();
 }
@@ -88,19 +123,6 @@ void PaletteModel::saveJson() {
     QJsonDocument doc(m_data);
     file.write(doc.toJson(QJsonDocument::Indented));
     file.close();
-}
-
-bool PaletteModel::hasColor(const QString &theme, const QString &colorName) const {
-    if (!m_data.contains("colors"))
-        return false;
-
-    QJsonObject colors = m_data["colors"].toObject();
-
-    if (!colors.contains(theme))
-        return false;
-
-    QJsonObject themeObj = colors[theme].toObject();
-    return themeObj.contains(colorName);
 }
 
 bool PaletteModel::isLoaded() const {

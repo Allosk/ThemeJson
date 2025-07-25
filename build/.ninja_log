@@ -1,103 +1,24 @@
 # ninja log v6
-92	809	1753447260107092483	CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/main.cc.o	29ed6b82ffce3b22
-93	762	1753447260107092483	CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/palette_model.cc.o	6322addf433ce7cc
-92	703	1753447260107092483	CMakeFiles/ThemeJson.dir/ThemeJson_autogen/mocs_compilation.cpp.o	4956b47eca67085f
-89	92	1753447260107092483	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-1	89	1753447260100425933	/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/mocs_compilation.cpp	380978dfe00b48b4
-1	89	1753447260100425933	/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/timestamp	380978dfe00b48b4
-93	110	1753447260107092483	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-89	92	1753447260107092483	qrc_qml.cpp	82311b3954ddb350
-1	89	1753447260100425933	ThemeJson_autogen/mocs_compilation.cpp	380978dfe00b48b4
-809	1024	1753447260823746741	ThemeJson	3fbd475c3a05c017
-1	89	1753447260100425933	ThemeJson_autogen/timestamp	380978dfe00b48b4
-1	5	1753447278766769390	qrc_qml.cpp	82311b3954ddb350
-1	5	1753447278766769390	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-5	25	1753447278766769390	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-25	240	1753447278786769044	ThemeJson	3fbd475c3a05c017
-1	89	1753447307879598685	ThemeJson_autogen/timestamp	380978dfe00b48b4
-1	89	1753447307879598685	ThemeJson_autogen/mocs_compilation.cpp	380978dfe00b48b4
-1	89	1753447307879598685	/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/timestamp	380978dfe00b48b4
-1	89	1753447307879598685	/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/mocs_compilation.cpp	380978dfe00b48b4
-89	92	1753447307889598512	qrc_qml.cpp	82311b3954ddb350
-89	92	1753447307889598512	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-92	109	1753447307889598512	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-92	724	1753447307889598512	CMakeFiles/ThemeJson.dir/ThemeJson_autogen/mocs_compilation.cpp.o	4956b47eca67085f
-92	774	1753447307889598512	CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/palette_model.cc.o	6322addf433ce7cc
-92	811	1753447307889598512	CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/main.cc.o	29ed6b82ffce3b22
-811	1027	1753447308606252772	ThemeJson	3fbd475c3a05c017
-1	4	1753447327079266313	qrc_qml.cpp	82311b3954ddb350
-1	4	1753447327079266313	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	20	1753447327082599588	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-20	232	1753447327095932691	ThemeJson	3fbd475c3a05c017
-1	4	1753447392601465599	qrc_qml.cpp	82311b3954ddb350
-1	4	1753447392601465599	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	21	1753447392601465599	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	243	1753447392618131978	ThemeJson	3fbd475c3a05c017
-1	4	1753447567221778117	qrc_qml.cpp	82311b3954ddb350
-1	4	1753447567221778117	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	20	1753447567221778117	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-20	234	1753447567238444496	ThemeJson	3fbd475c3a05c017
-1	4	1753448555223760526	qrc_qml.cpp	82311b3954ddb350
-1	4	1753448555223760526	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	22	1753448555223760526	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-22	246	1753448555243760114	ThemeJson	3fbd475c3a05c017
-1	5	1753448592502996075	qrc_qml.cpp	82311b3954ddb350
-1	5	1753448592502996075	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-5	21	1753448592502996075	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	239	1753448592519662401	ThemeJson	3fbd475c3a05c017
-1	4	1753449818249506531	qrc_qml.cpp	82311b3954ddb350
-1	4	1753449818249506531	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	22	1753449818249506531	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-22	235	1753449818266172888	ThemeJson	3fbd475c3a05c017
-1	4	1753449934967272694	qrc_qml.cpp	82311b3954ddb350
-1	4	1753449934967272694	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	21	1753449934967272694	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	234	1753449934983939031	ThemeJson	3fbd475c3a05c017
-2	4	1753450174129270586	qrc_qml.cpp	82311b3954ddb350
-2	4	1753450174129270586	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	21	1753450174129270586	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	244	1753450174145936931	ThemeJson	3fbd475c3a05c017
-1	4	1753450181882454225	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450181882454225	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	20	1753450181882454225	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	241	1753450181899120569	ThemeJson	3fbd475c3a05c017
-1	4	1753450263617547868	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450263617547868	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	20	1753450263617547868	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	243	1753450263634214214	ThemeJson	3fbd475c3a05c017
-1	4	1753450286037117893	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450286037117893	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	21	1753450286037117893	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	235	1753450286053784240	ThemeJson	3fbd475c3a05c017
-1	5	1753450300360176853	qrc_qml.cpp	82311b3954ddb350
-1	5	1753450300360176853	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-5	21	1753450300360176853	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	233	1753450300376843201	ThemeJson	3fbd475c3a05c017
-1	4	1753450315369889579	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450315369889579	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	21	1753450315369889579	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	238	1753450315386555926	ThemeJson	3fbd475c3a05c017
-1	4	1753450349942562166	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450349942562166	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	20	1753450349942562166	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-20	236	1753450349959228515	ThemeJson	3fbd475c3a05c017
-1	4	1753450413274688301	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450413274688301	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	20	1753450413274688301	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-20	242	1753450413291354650	ThemeJson	3fbd475c3a05c017
-1	4	1753450438850868516	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450438850868516	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	21	1753450438850868516	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	240	1753450438867534866	ThemeJson	3fbd475c3a05c017
-1	4	1753450493883157105	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450493883157105	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	20	1753450493883157105	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-20	234	1753450493903156725	ThemeJson	3fbd475c3a05c017
-1	4	1753450523752591067	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450523752591067	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	21	1753450523752591067	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-21	246	1753450523769257418	ThemeJson	3fbd475c3a05c017
-1	4	1753450605041053912	qrc_qml.cpp	82311b3954ddb350
-1	4	1753450605041053912	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
-4	20	1753450605041053912	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
-20	244	1753450605057720264	ThemeJson	3fbd475c3a05c017
+1	102	1753451630445214751	ThemeJson_autogen/timestamp	380978dfe00b48b4
+21	236	1753454283913622523	ThemeJson	3fbd475c3a05c017
+1	102	1753451630445214751	ThemeJson_autogen/mocs_compilation.cpp	380978dfe00b48b4
+1	5	1753454283896956177	qrc_qml.cpp	82311b3954ddb350
+5	21	1753454283896956177	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
+1	102	1753451630445214751	/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/timestamp	380978dfe00b48b4
+1	102	1753451630445214751	/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/mocs_compilation.cpp	380978dfe00b48b4
+1	5	1753454283896956177	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
+105	722	1753451630451881293	CMakeFiles/ThemeJson.dir/ThemeJson_autogen/mocs_compilation.cpp.o	4956b47eca67085f
+105	781	1753451630451881293	CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/palette_model.cc.o	6322addf433ce7cc
+105	827	1753451630451881293	CMakeFiles/ThemeJson.dir/src/c++/ThemeJson/main.cc.o	29ed6b82ffce3b22
+1	16	1753454442533958042	ThemeJson_autogen/timestamp	380978dfe00b48b4
+1	16	1753454442533958042	ThemeJson_autogen/mocs_compilation.cpp	380978dfe00b48b4
+1	16	1753454442533958042	/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/timestamp	380978dfe00b48b4
+1	16	1753454442533958042	/home/admin/Рабочий стол/theme-json/build/ThemeJson_autogen/mocs_compilation.cpp	380978dfe00b48b4
+16	19	1753454442550624399	qrc_qml.cpp	82311b3954ddb350
+16	19	1753454442550624399	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
+19	35	1753454442550624399	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
+35	251	1753454442567290755	ThemeJson	3fbd475c3a05c017
+1	4	1753454453597085724	qrc_qml.cpp	82311b3954ddb350
+1	4	1753454453597085724	/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp	82311b3954ddb350
+4	20	1753454453597085724	CMakeFiles/ThemeJson.dir/qrc_qml.cpp.o	92f6606efaf09dc3
+20	234	1753454453613752081	ThemeJson	3fbd475c3a05c017
