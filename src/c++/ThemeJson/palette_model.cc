@@ -72,7 +72,9 @@ bool PaletteModel::loadFromFile(const QString filePath)
     }
 
     m_data = doc.object();
-    m_filePath = localPath;  
+    m_filePath = localPath;
+
+    emit loadedChanged();
     emit themeColorsChanged();
     return true;
 }
@@ -86,4 +88,21 @@ void PaletteModel::saveJson() {
     QJsonDocument doc(m_data);
     file.write(doc.toJson(QJsonDocument::Indented));
     file.close();
+}
+
+bool PaletteModel::hasColor(const QString &theme, const QString &colorName) const {
+    if (!m_data.contains("colors"))
+        return false;
+
+    QJsonObject colors = m_data["colors"].toObject();
+
+    if (!colors.contains(theme))
+        return false;
+
+    QJsonObject themeObj = colors[theme].toObject();
+    return themeObj.contains(colorName);
+}
+
+bool PaletteModel::isLoaded() const {
+    return !m_filePath.isEmpty();
 }

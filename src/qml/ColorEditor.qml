@@ -61,7 +61,6 @@ ListView {
                 onTextChanged: name_text_metrics.text = text
                 Component.onCompleted: name_text_metrics.text = text
             }
-
             Pane {
                 id: editor_container
                 Layout.fillWidth: true
