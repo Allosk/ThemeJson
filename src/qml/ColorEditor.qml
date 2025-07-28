@@ -74,7 +74,7 @@ ListView {
                     anchors.fill: parent
                     cursorShape: Qt.PointingHandCursor
                     onClicked: {
-                        console.log("Clicked")
+                        paletteModel.removeColor(modelData.name)
                     }
                 }
 

@@ -145,7 +145,7 @@ build ThemeJson_autogen: phony CMakeFiles/ThemeJson_autogen ThemeJson_autogen/ti
 #############################################
 # Custom command for qrc_qml.cpp
 
-build qrc_qml.cpp | ${cmake_ninja_workdir}qrc_qml.cpp: CUSTOM_COMMAND /home/admin/Рабочий$ стол/theme-json/src/qml/qml.qrc /home/admin/Рабочий$ стол/theme-json/src/qml/main.qml /home/admin/Рабочий$ стол/theme-json/src/qml/ColorEditor.qml /home/admin/Рабочий$ стол/theme-json/src/qml/icons/can-trash.svg src/qml/qml.qrc.depends || ThemeJson_autogen ThemeJson_autogen_timestamp_deps
+build qrc_qml.cpp | ${cmake_ninja_workdir}qrc_qml.cpp: CUSTOM_COMMAND /home/admin/Рабочий$ стол/theme-json/src/qml/qml.qrc /home/admin/Рабочий$ стол/theme-json/src/qml/main.qml /home/admin/Рабочий$ стол/theme-json/src/qml/ColorEditor.qml src/qml/qml.qrc.depends || ThemeJson_autogen ThemeJson_autogen_timestamp_deps
   COMMAND = cd "/home/admin/Рабочий стол/theme-json/build" && /usr/bin/rcc --name qml --output "/home/admin/Рабочий стол/theme-json/build/qrc_qml.cpp" "/home/admin/Рабочий стол/theme-json/src/qml/qml.qrc"
   DESC = Generating qrc_qml.cpp
   restat = 1

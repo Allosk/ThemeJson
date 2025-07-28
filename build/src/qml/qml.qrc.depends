@@ -2,6 +2,5 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>ColorEditor.qml</file>
-        <file>icons/can-trash.svg</file>
     </qresource>
 </RCC>

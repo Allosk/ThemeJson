@@ -371,7 +371,7 @@ ApplicationWindow {
                     text: "Name:"
                     font.pixelSize: 18
                     verticalAlignment: Text.AlignVCenter
-                    Layout.preferredWidth: 210
+                    Layout.minimumWidth: 230
 
                 }
 
