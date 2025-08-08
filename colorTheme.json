@@ -1,0 +1,16 @@
+{
+    "colors": {
+        "dark": {
+            "gygygyg": "#000000",
+            "accent": "#f2f2f2",
+            "accentActive": "#ff0808",
+            "y": "#000000"
+        },
+        "light": {
+            "gygygyg": "#020000",
+            "accent": "#20ffe3",
+            "accentActive": "#e1e1e1",
+            "y": "#ffffff"
+        }
+    }
+}

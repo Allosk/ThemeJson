@@ -8,7 +8,7 @@ import QtGraphicalEffects 1.15
 
 
 ApplicationWindow {
-    id:root
+    id: root
     property color backgroundColor:  "#fefefe"
     visible: true
     width: 500
