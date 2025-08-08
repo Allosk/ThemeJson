@@ -1,5 +1,0 @@
-/home/admin/Рабочий стол/theme-json/build/CMakeFiles/ThemeJson.dir
-/home/admin/Рабочий стол/theme-json/build/CMakeFiles/edit_cache.dir
-/home/admin/Рабочий стол/theme-json/build/CMakeFiles/rebuild_cache.dir
-/home/admin/Рабочий стол/theme-json/build/CMakeFiles/ThemeJson_autogen_timestamp_deps.dir
-/home/admin/Рабочий стол/theme-json/build/CMakeFiles/ThemeJson_autogen.dir
